@@ -1,0 +1,15 @@
+{
+  "name": "massbit-reverse-proxy",
+  "version": "1.0.0",
+  "description": "Routes external requests to the massbit docker instance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seraya",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
