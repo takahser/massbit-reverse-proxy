@@ -1,17 +1,11 @@
 const httpProxy = require('http-proxy'),
       http = require('http');
 
-// const target = 'http://dapi.massbitroute.net/';
-    
-// httpProxy.createProxyServer({ target }).listen(8000);
-
-
 //
 // Create a proxy server with custom application logic
 //
 var proxy = httpProxy.createProxyServer({});
 const target = 'http://dapi.massbitroute.net/';
-// const target = 'http://www.nzz.ch/';
  
 //
 // Create your custom server and just call `proxy.web()` to proxy
